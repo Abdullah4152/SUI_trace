@@ -1,0 +1,182 @@
+{
+  "base_url": "https://integrate.api.nvidia.com/v1",
+  "request_timeout_s": 1800,
+  "request_retries": 2,
+  "retry_sleep_s": 30,
+  "response_cooldown_s": 30,
+  "api_key_env_names": [
+    "NVIDIA_API_KEY_1",
+    "NVIDIA_API_KEY_2",
+    "NVIDIA_API_KEY_3",
+    "NVIDIA_API_KEY_4",
+    "NVIDIA_API_KEY_5",
+    "NVIDIA_API_KEY_6",
+    "NVIDIA_API_KEY_7",
+    "NVIDIA_API_KEY_8"
+  ],
+  "model_api_key_env_names": {
+    "default": [
+      "NVIDIA_API_KEY_1",
+      "NVIDIA_API_KEY_2",
+      "NVIDIA_API_KEY_3",
+      "NVIDIA_API_KEY_4",
+      "NVIDIA_API_KEY_5",
+      "NVIDIA_API_KEY_6",
+      "NVIDIA_API_KEY_7",
+      "NVIDIA_API_KEY_8"
+    ]
+  },
+  "editor_api_key_env_names": {
+    "default": [
+      "NVIDIA_API_KEY_1",
+      "NVIDIA_API_KEY_2",
+      "NVIDIA_API_KEY_3",
+      "NVIDIA_API_KEY_4",
+      "NVIDIA_API_KEY_5",
+      "NVIDIA_API_KEY_6",
+      "NVIDIA_API_KEY_7",
+      "NVIDIA_API_KEY_8"
+    ]
+  },
+  "judge_api_key_env_names": {
+    "default": [
+      "NVIDIA_API_KEY_1",
+      "NVIDIA_API_KEY_2",
+      "NVIDIA_API_KEY_3",
+      "NVIDIA_API_KEY_4",
+      "NVIDIA_API_KEY_5",
+      "NVIDIA_API_KEY_6",
+      "NVIDIA_API_KEY_7",
+      "NVIDIA_API_KEY_8"
+    ]
+  },
+  "dataset_paths": {
+    "math": "/path/to/MATH-500/train-00000-of-00001-7320a6f3aba8ebd2.parquet",
+    "gpqa_diamond": "/path/to/GPQA-Diamond/gpqa_diamond.csv",
+    "logiqa_test": "/path/to/LogiQA-2.0/test.jsonl"
+  },
+  "target_models": {
+    "GLM-5.1": "z-ai/glm-5.1",
+    "Nemotron-3-Nano-Omni-30B-Reasoning": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "Mistral-Medium-3.5-128B": "mistralai/mistral-medium-3.5-128b"
+  },
+  "editor_models": {
+    "Qwen2.5-72B-Instruct-JSON-Editor": "qwen/Qwen2.5-72B-Instruct"
+  },
+  "judge_model": "meta/llama-3.1-70b-instruct",
+  "model_settings": {
+    "z-ai/glm-5.1": {
+      "main": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "max_tokens": 16384,
+        "extra": {
+          "chat_template_kwargs": {
+            "enable_thinking": true,
+            "clear_thinking": false
+          }
+        }
+      },
+      "continuation": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 4096,
+        "extra": {
+          "chat_template_kwargs": {
+            "enable_thinking": true,
+            "clear_thinking": false
+          }
+        }
+      }
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
+      "main": {
+        "temperature": 0.6,
+        "top_p": 0.95,
+        "max_tokens": 65536,
+        "extra": {
+          "chat_template_kwargs": {
+            "enable_thinking": true
+          },
+          "reasoning_budget": 16384
+        }
+      },
+      "continuation": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 4096,
+        "extra": {
+          "chat_template_kwargs": {
+            "enable_thinking": true
+          },
+          "reasoning_budget": 4096
+        }
+      }
+    },
+    "mistralai/mistral-medium-3.5-128b": {
+      "main": {
+        "temperature": 0.7,
+        "top_p": 1.0,
+        "max_tokens": 16384,
+        "extra": {
+          "reasoning_effort": "high"
+        }
+      },
+      "continuation": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 4096,
+        "extra": {
+          "reasoning_effort": "high"
+        }
+      }
+    },
+    "qwen/Qwen2.5-72B-Instruct": {
+      "editor": {
+        "temperature": 0.0,
+        "top_p": 0.7,
+        "max_tokens": 512,
+        "stream": false,
+        "extra": {}
+      }
+    },
+    "meta/llama-3.1-70b-instruct": {
+      "judge": {
+        "temperature": 0.0,
+        "top_p": 0.7,
+        "max_tokens": 128,
+        "stream": false,
+        "extra": {}
+      }
+    }
+  },
+  "pilot": {
+    "instances_per_benchmark": 30,
+    "sampled_steps_per_trace": 4,
+    "max_attempts_per_step": 3,
+    "continuation_answer_retries": 1,
+    "use_unedited_continuation_baseline": true,
+    "seed": 20260509
+  },
+  "decoding": {
+    "main_temperature": 0.0,
+    "main_top_p": 1.0,
+    "main_max_tokens": 8192,
+    "continuation_temperature": 0.0,
+    "continuation_top_p": 1.0,
+    "continuation_max_tokens": 4096,
+    "editor_temperature": 0.2,
+    "editor_top_p": 0.9,
+    "editor_max_tokens": 768,
+    "sampling_temperature": 0.7,
+    "sampling_top_p": 0.95
+  },
+  "thresholds": {
+    "uptake_delta_cont_min": 0.10,
+    "semantic_similarity_max": 0.95,
+    "lexical_overlap_max": 0.90,
+    "instability_delta_cont": 0.70,
+    "over_disruption_delta_cont": 0.60,
+    "high_risk_utility": 1.00
+  }
+}

@@ -1,0 +1,193 @@
+validation_item_id,split,model,benchmark,instance_id,step_id,step_bin,norm_position,valid_for_utility_auto,utility_score,delta_ans,delta_corr,delta_cont,contradiction_flag_auto,instability_flag_auto,answer_critical_flag_auto,baseline_answer,edited_answer,segmentation_method,num_trace_steps,stratum
+HV-0f33123f81e2,calibration,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_2886,1,redundant,0.25,True,0.4879328436516265,0,0,0.4879328436516265,False,False,False,not-entailment,not-entailment,marker_fallback,5,redundant
+HV-7d2e9a3cd0a5,calibration,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_6153,4,invalid-edit,0.6666666666666666,False,,,,,False,False,False,,,double_newline,7,invalid-edit
+HV-a1a76e1f36d9,calibration,GLM-5.1,GPQA Diamond,gpqa_recafnH3RRnMBXEb1,8,supportive,0.8,True,0.9184782608695652,0,0,0.9184782608695652,False,True,False,C,C,double_newline,11,supportive
+HV-65587e2565aa,calibration,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_603,11,decision-critical,0.9166666666666666,True,2.9372609028309107,1,1,0.9372609028309105,False,True,True,7,5,double_newline,13,decision-critical
+HV-330b8ad28bc6,calibration,Mistral-Medium-3.5-128B,MATH-500,math_5955,2,invalid-edit,0.3333333333333333,False,,,,,True,False,False,,,double_newline,7,invalid-edit
+HV-72cae9ac2a32,calibration,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_reccVFW11Elovnf8T,44,supportive,0.25882352941176473,True,0.9800664451827242,0,0,0.9800664451827242,False,True,False,C,C,double_newline,171,supportive
+HV-6f332cbb60b5,calibration,Mistral-Medium-3.5-128B,MATH-500,math_9727,5,redundant,0.7142857142857143,True,0.0,0,0,0.0,True,False,False,3,3,double_newline,8,redundant
+HV-65022975e2d6,calibration,Mistral-Medium-3.5-128B,MATH-500,math_5407,2,redundant,0.3333333333333333,True,0.1892497200447928,0,0,0.1892497200447928,True,False,False,10,10,double_newline,7,redundant
+HV-efa364bb99f3,calibration,GLM-5.1,LogiQA 2.0,logiqa_1974,7,invalid-edit,0.3333333333333333,False,,,,,True,False,False,,,double_newline,22,invalid-edit
+HV-ea39336756c7,calibration,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_2156,4,supportive,0.6666666666666666,True,0.9414556962025317,0,0,0.9414556962025317,True,True,False,not-entailment,not-entailment,marker_fallback,7,supportive
+HV-332d03c9e64d,calibration,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recRgabRzMaEoBRcM,7,decision-critical,0.4666666666666667,True,1.984453589391861,1,0,0.984453589391861,False,True,True,D,C,double_newline,16,decision-critical
+HV-388ae77b103d,calibration,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recRhwQwHijW0gCLo,4,decision-critical,0.5714285714285714,True,1.9878787878787878,1,0,0.9878787878787879,False,True,True,C,A,double_newline,8,decision-critical
+HV-e7e027130651,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_9461,2,redundant,0.6666666666666666,True,0.627563576702215,0,0,0.627563576702215,True,False,False,4.5,4.5,sentence_merge_fallback,4,redundant
+HV-c2b3900a4cf2,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_10188,100,decision-critical,0.7692307692307693,True,2.9349962207105067,1,1,0.9349962207105065,True,True,True,-1,...,sentence_merge_fallback,131,decision-critical
+HV-2674ba213d55,main,GLM-5.1,GPQA Diamond,gpqa_recXsuOHRBLcyenF2,0,redundant,0.0,True,0.6023738872403561,0,0,0.6023738872403561,False,False,False,A,A,double_newline,13,redundant
+HV-09f6058e2e48,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_10901,3,invalid-edit,0.75,False,,,,,True,False,False,,,double_newline,5,invalid-edit
+HV-6834903843b5,main,GLM-5.1,GPQA Diamond,gpqa_recooG6bivTUJpDBz,63,decision-critical,0.5206611570247934,True,2.853442830069488,1,1,0.8534428300694883,False,True,True,A,B,double_newline,122,decision-critical
+HV-34a709faa9d3,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recRgabRzMaEoBRcM,0,invalid-edit,0.0,False,,,,,True,False,False,,,double_newline,16,invalid-edit
+HV-0070aceafc10,main,GLM-5.1,MATH-500,math_603,8,supportive,0.8888888888888888,True,0.8174342105263158,0,0,0.8174342105263158,False,True,False,7,7,double_newline,10,supportive
+HV-ec05d4e2c4e7,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recWzUUYBN0NuXO2k,23,supportive,0.7931034482758621,True,0.937973811164714,0,0,0.937973811164714,False,True,False,B,B,double_newline,30,supportive
+HV-3e5cce5bb704,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_reczQ4I0VpENdMtIj,1,redundant,0.125,True,0.0,0,0,0.0,False,False,False,,,marker_fallback,9,redundant
+HV-772d7185d6a6,main,GLM-5.1,GPQA Diamond,gpqa_recVvpD8miVjmmyfe,111,supportive,0.21511627906976744,True,0.8856607310215557,0,0,0.8856607310215557,True,True,False,C,C,double_newline,517,supportive
+HV-c76195ad5a70,main,GLM-5.1,GPQA Diamond,gpqa_recVvpD8miVjmmyfe,337,invalid-edit,0.6531007751937985,False,,,,,False,False,False,,,double_newline,517,invalid-edit
+HV-d0af6bf9a400,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_5702,3,decision-critical,0.42857142857142855,True,2.9460916442048517,1,1,0.9460916442048517,True,True,True,111,9/999,double_newline,8,decision-critical
+HV-b889c003c78d,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_2955,5,decision-critical,0.625,True,2.8143851508120648,1,1,0.814385150812065,True,True,True,entailment,not-entailment,double_newline,9,decision-critical
+HV-d4810f196bca,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_reccVFW11Elovnf8T,3,supportive,0.5,True,0.7077059344552701,0,0,0.7077059344552701,False,True,False,A,A,double_newline,7,supportive
+HV-77e2a5fe9ca6,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_2646,4,redundant,0.8,True,0.6254319281271596,0,0,0.6254319281271596,True,False,False,entailment,entailment,double_newline,6,redundant
+HV-376b08a171b8,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recZSGUkn56v9kEp1,88,decision-critical,0.8148148148148148,True,1.971976401179941,1,0,0.971976401179941,False,True,True,A,B,double_newline,109,decision-critical
+HV-7d2639a321b2,main,GLM-5.1,MATH-500,math_9461,3,redundant,0.5,True,0.5192604006163328,0,0,0.5192604006163328,False,False,False,4.5,4.5,double_newline,7,redundant
+HV-4ba3490076fe,main,GLM-5.1,LogiQA 2.0,logiqa_2671,4,invalid-edit,0.3076923076923077,False,,,,,False,False,False,,,double_newline,14,invalid-edit
+HV-c6aafaea2dc8,main,GLM-5.1,LogiQA 2.0,logiqa_2164,27,redundant,0.9310344827586207,True,0.01573676680972813,0,0,0.01573676680972813,False,False,False,entailment,entailment,double_newline,30,redundant
+HV-53944cecf1c4,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recoy9ZLBsc7HIRBy,55,decision-critical,0.3313253012048193,True,2.5236220472440944,1,1,0.5236220472440944,False,False,True,C,D,double_newline,167,decision-critical
+HV-fd2577f53e10,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_1503,1,supportive,0.2,True,0.8181818181818181,0,0,0.8181818181818181,False,True,False,entailment,entailment,marker_fallback,6,supportive
+HV-d70328784737,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recDytVnNYZe2HuUU,9,decision-critical,0.6,True,2.2685385169186465,1,1,0.2685385169186465,False,False,True,A,D,double_newline,16,decision-critical
+HV-cd70be800c59,main,GLM-5.1,GPQA Diamond,gpqa_recoy9ZLBsc7HIRBy,69,decision-critical,0.34328358208955223,True,2.9130434782608696,1,1,0.9130434782608696,False,True,True,C,D,double_newline,202,decision-critical
+HV-bf7c27ee034b,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recINSFEYLCyyd08m,199,decision-critical,0.8257261410788381,True,2.9273356401384083,1,1,0.9273356401384083,True,True,True,B,A,double_newline,242,decision-critical
+HV-430ca915cdce,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_267,1,invalid-edit,0.08333333333333333,False,,,,,False,False,False,,,double_newline,13,invalid-edit
+HV-bbf9f07175f1,main,Mistral-Medium-3.5-128B,MATH-500,math_603,3,redundant,0.42857142857142855,True,0.311340206185567,0,0,0.311340206185567,True,False,False,7,7,double_newline,8,redundant
+HV-65d978c1c959,main,GLM-5.1,GPQA Diamond,gpqa_rec527dNeEtWJrYNl,21,redundant,0.5526315789473685,True,0.6218968809675366,0,0,0.6218968809675366,False,False,False,C,C,double_newline,39,redundant
+HV-bf5daddd7d02,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recZdZxsN0AxDx0pB,5,decision-critical,0.45454545454545453,True,1.9571428571428573,1,0,0.9571428571428572,False,True,True,C,B,double_newline,12,decision-critical
+HV-2e4a2627c5f3,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recooG6bivTUJpDBz,163,decision-critical,0.9819277108433735,True,1.3619972260748958,1,0,0.36199722607489593,False,False,True,D,B,double_newline,167,decision-critical
+HV-0814c46bac9b,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_1954,4,supportive,0.6666666666666666,True,0.9349701393497014,0,0,0.9349701393497014,False,True,False,entailment,entailment,marker_fallback,7,supportive
+HV-edf177c8548c,main,GLM-5.1,GPQA Diamond,gpqa_rec0VuKUjt1SZ7NYv,48,invalid-edit,0.8,False,,,,,False,False,False,,,double_newline,61,invalid-edit
+HV-91b29572aec1,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recWzUUYBN0NuXO2k,8,invalid-edit,0.7272727272727273,False,,,,,False,False,False,,,double_newline,12,invalid-edit
+HV-624797850be6,main,GLM-5.1,LogiQA 2.0,logiqa_1799,0,decision-critical,0.0,True,2.974025974025974,1,1,0.974025974025974,False,True,True,not-entailment,entailment,double_newline,10,decision-critical
+HV-96330cfa34b9,main,Mistral-Medium-3.5-128B,MATH-500,math_10188,5,redundant,0.7142857142857143,True,0.0,0,0,0.0,True,False,False,-1,-1,double_newline,8,redundant
+HV-f2a413e4e240,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recooG6bivTUJpDBz,7,decision-critical,0.04216867469879518,True,1.9473684210526316,1,0,0.9473684210526316,False,True,True,B,C,double_newline,167,decision-critical
+HV-1dd083e473d4,main,GLM-5.1,MATH-500,math_716,6,supportive,0.35294117647058826,True,0.8967434471803019,0,0,0.8967434471803019,True,True,False,\frac{207}{64},\frac{207}{64},double_newline,18,supportive
+HV-e81ffc82c9b8,main,GLM-5.1,LogiQA 2.0,logiqa_1974,0,invalid-edit,0.0,False,,,,,True,False,False,,,double_newline,22,invalid-edit
+HV-3cb445154f92,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recYt8xx80OTyDsL0,1,supportive,0.14285714285714285,True,0.97291807718348,0,0,0.97291807718348,False,True,False,A,A,marker_fallback,8,supportive
+HV-4c3e3232f991,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_9461,0,decision-critical,0.0,True,2.855639097744361,1,1,0.8556390977443609,False,True,True,4.5,\boxed,sentence_merge_fallback,4,decision-critical
+HV-f6b9dbb8aac0,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recIIUynGGpsGEYuo,2,invalid-edit,0.4,False,,,,,False,False,False,,,double_newline,6,invalid-edit
+HV-7bc01cd748d8,main,GLM-5.1,GPQA Diamond,gpqa_recRgabRzMaEoBRcM,82,invalid-edit,0.22841225626740946,False,,,,,False,False,False,,,double_newline,360,invalid-edit
+HV-3dbb864c96e9,main,Mistral-Medium-3.5-128B,MATH-500,math_2338,3,redundant,0.5,True,0.43300970873786404,0,0,0.43300970873786404,False,False,False,\dfrac{1}{4},\dfrac{1}{4},double_newline,7,redundant
+HV-9e646f36043d,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_2764,2,redundant,0.13333333333333333,True,0.33628318584070793,0,0,0.33628318584070793,False,False,False,\frac{1}{6},\frac{1}{6},double_newline,16,redundant
+HV-037aaa56bea0,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_716,8,invalid-edit,0.6666666666666666,False,,,,,True,False,False,,,double_newline,13,invalid-edit
+HV-a5f2da5cf53e,main,Mistral-Medium-3.5-128B,MATH-500,math_5137,1,invalid-edit,0.25,False,,,,,True,False,False,,,double_newline,5,invalid-edit
+HV-bc3bfce6a908,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recWzUUYBN0NuXO2k,5,decision-critical,0.1724137931034483,True,2.9469026548672566,1,1,0.9469026548672567,False,True,True,B,C,double_newline,30,decision-critical
+HV-56e1b29c38cb,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_2764,9,supportive,0.6,True,0.8007968127490039,0,0,0.8007968127490039,False,True,False,\frac{1}{6},\frac{1}{6},double_newline,16,supportive
+HV-e33f0564a82f,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recWzUUYBN0NuXO2k,11,redundant,0.3793103448275862,True,0.6391096979332274,0,0,0.6391096979332274,False,False,False,B,B,double_newline,30,redundant
+HV-4ad2764c8c46,main,GLM-5.1,GPQA Diamond,gpqa_recSBcGLPatKb3Ygu,21,redundant,0.84,True,0.4473118279569892,0,0,0.4473118279569892,False,False,False,B,B,double_newline,26,redundant
+HV-f0df4e4d81ee,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_1989,4,decision-critical,0.8,True,2.977728285077951,1,1,0.977728285077951,False,True,True,not-entailment,entailment,marker_fallback,6,decision-critical
+HV-678ea3dc7c70,main,GLM-5.1,LogiQA 2.0,logiqa_1303,6,redundant,0.75,True,0.6727272727272727,0,0,0.6727272727272727,False,False,False,not-entailment,not-entailment,double_newline,9,redundant
+HV-ae1b2c5f79ca,main,GLM-5.1,MATH-500,math_1506,4,invalid-edit,0.21052631578947367,False,,,,,True,False,False,,,double_newline,20,invalid-edit
+HV-76e7ef01fa60,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recn3NhOhqAPLda16,7,decision-critical,0.875,True,2.925507900677201,1,1,0.9255079006772009,False,True,True,C,A,double_newline,9,decision-critical
+HV-613b419319f6,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_267,1,supportive,0.25,True,0.9358074222668004,0,0,0.9358074222668004,True,True,False,entailment,entailment,marker_fallback,5,supportive
+HV-a0508d582018,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_716,1,decision-critical,0.08333333333333333,True,1.9096153846153845,1,0,0.9096153846153846,True,True,True,215/64,207/64,double_newline,13,decision-critical
+HV-9835c6596080,main,GLM-5.1,GPQA Diamond,gpqa_recVvpD8miVjmmyfe,500,invalid-edit,0.9689922480620154,False,,,,,False,False,False,,,double_newline,517,invalid-edit
+HV-9e99c411fab9,main,Mistral-Medium-3.5-128B,MATH-500,math_6153,1,invalid-edit,0.25,False,,,,,True,False,False,,,double_newline,5,invalid-edit
+HV-3bf89cd4fc3b,main,Mistral-Medium-3.5-128B,MATH-500,math_603,5,redundant,0.7142857142857143,True,0.6699029126213591,0,0,0.6699029126213591,False,False,False,7,7,double_newline,8,redundant
+HV-f18588590535,main,GLM-5.1,LogiQA 2.0,logiqa_2766,15,redundant,0.9375,True,0.5910194174757282,0,0,0.5910194174757282,True,False,False,entailment,entailment,double_newline,17,redundant
+HV-84253b23bdc9,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recIlghoOw5VbY4Zh,4,decision-critical,0.6666666666666666,True,2.7331772966647163,1,1,0.7331772966647162,False,True,True,C,B,double_newline,7,decision-critical
+HV-4a344aa6d8e8,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_1954,6,redundant,1.0,True,0.6987951807228916,0,0,0.6987951807228916,False,False,False,not-entailment,not-entailment,marker_fallback,7,redundant
+HV-7a130d9a38f3,main,Mistral-Medium-3.5-128B,MATH-500,math_4567,2,redundant,0.3333333333333333,True,0.0,0,0,0.0,False,False,False,E,E,double_newline,7,redundant
+HV-2fdd63a97424,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recYt8xx80OTyDsL0,5,supportive,0.7142857142857143,True,0.8992568125516103,0,0,0.8992568125516103,False,True,False,A,A,marker_fallback,8,supportive
+HV-77fc5e203e6c,main,Mistral-Medium-3.5-128B,MATH-500,math_6864,21,invalid-edit,0.875,False,,,,,False,False,False,,,double_newline,25,invalid-edit
+HV-420dfa10bfb4,main,GLM-5.1,GPQA Diamond,gpqa_reczQ4I0VpENdMtIj,41,redundant,0.9761904761904762,True,0.683086053412463,0,0,0.683086053412463,False,False,False,D,D,double_newline,43,redundant
+HV-19e245b072ab,main,Mistral-Medium-3.5-128B,MATH-500,math_2764,4,invalid-edit,0.19047619047619047,False,,,,,True,False,False,,,double_newline,22,invalid-edit
+HV-e7c0b8172cae,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_1506,2,invalid-edit,0.125,False,,,,,False,False,False,,,double_newline,17,invalid-edit
+HV-1ff9e091e4f4,main,GLM-5.1,MATH-500,math_5137,12,supportive,0.3157894736842105,True,0.854875283446712,0,0,0.854875283446712,True,True,False,1110_4,1110_4,double_newline,39,supportive
+HV-92adf2e84e54,main,GLM-5.1,LogiQA 2.0,logiqa_1066,4,supportive,0.034482758620689655,True,0.8885714285714286,0,0,0.8885714285714286,False,True,False,entailment,entailment,double_newline,117,supportive
+HV-836b45388f58,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_2764,11,supportive,0.7333333333333333,True,0.7708628005657708,0,0,0.7708628005657708,False,True,False,\frac{1}{6},\frac{1}{6},double_newline,16,supportive
+HV-d04e1580d59b,main,GLM-5.1,LogiQA 2.0,logiqa_2766,14,redundant,0.875,True,0.40826245443499387,0,0,0.40826245443499387,True,False,False,entailment,entailment,double_newline,17,redundant
+HV-637bcea9c7e5,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_rec0VuKUjt1SZ7NYv,11,redundant,0.3333333333333333,True,0.0,0,0,0.0,False,False,False,D,D,double_newline,34,redundant
+HV-687bd36ee142,main,GLM-5.1,GPQA Diamond,gpqa_recDytVnNYZe2HuUU,86,decision-critical,0.6466165413533834,True,2.57705597788528,1,1,0.57705597788528,False,False,True,D,A,double_newline,134,decision-critical
+HV-7863173983f3,main,GLM-5.1,MATH-500,math_12415,41,supportive,0.36283185840707965,True,0.9752679307502061,0,0,0.9752679307502061,False,True,False,6,6,double_newline,114,supportive
+HV-5a79e67f41d8,main,GLM-5.1,GPQA Diamond,gpqa_rec0VuKUjt1SZ7NYv,41,invalid-edit,0.6833333333333333,False,,,,,False,False,False,,,double_newline,61,invalid-edit
+HV-2138b4d4bcef,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recw4rROcnHKNZhtK,0,decision-critical,0.0,True,2.8819875776397517,1,1,0.8819875776397516,False,True,True,D,B,sentence_merge_fallback,2,decision-critical
+HV-0af8d75c6121,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_1194,10,supportive,0.7692307692307693,True,0.9557894736842105,0,0,0.9557894736842105,True,True,False,not-entailment,not-entailment,double_newline,14,supportive
+HV-89326a73e8f7,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_2156,10,supportive,0.47619047619047616,True,0.9342665855143031,0,0,0.9342665855143031,True,True,False,not-entailment,not-entailment,double_newline,22,supportive
+HV-d2180ab451de,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recypVp2NmPlBKVTp,1,supportive,0.2,True,0.9274241522903034,0,0,0.9274241522903034,False,True,False,C,C,double_newline,6,supportive
+HV-56f9f0d0c3d3,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_2958,53,redundant,0.6235294117647059,True,0.3648542159180457,0,0,0.3648542159180457,True,False,False,408,408,double_newline,86,redundant
+HV-85475aad6d33,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_rect4iLrSfUwkNTno,12,invalid-edit,0.7058823529411765,False,,,,,False,False,False,,,double_newline,18,invalid-edit
+HV-d9913becac8d,main,GLM-5.1,GPQA Diamond,gpqa_recooG6bivTUJpDBz,2,decision-critical,0.01652892561983471,True,2.7059602649006624,1,1,0.7059602649006622,False,True,True,B,A,double_newline,122,decision-critical
+HV-094df416f90a,main,GLM-5.1,MATH-500,math_6153,2,invalid-edit,0.25,False,,,,,True,False,False,,,double_newline,9,invalid-edit
+HV-8c8417c8f6f9,main,GLM-5.1,LogiQA 2.0,logiqa_3087,6,supportive,0.5,True,0.9809644670050761,0,0,0.9809644670050761,False,True,False,not-entailment,not-entailment,double_newline,13,supportive
+HV-2530794f6e4e,main,GLM-5.1,GPQA Diamond,gpqa_rec527dNeEtWJrYNl,29,supportive,0.7631578947368421,True,0.7595628415300546,0,0,0.7595628415300546,False,True,False,C,C,double_newline,39,supportive
+HV-55849ffb0c89,main,GLM-5.1,GPQA Diamond,gpqa_recZdZxsN0AxDx0pB,20,decision-critical,0.8333333333333334,True,2.844598862918509,1,1,0.8445988629185092,False,True,True,C,D,double_newline,25,decision-critical
+HV-903c82cd0ba1,main,GLM-5.1,LogiQA 2.0,logiqa_1573,0,supportive,0.0,True,0.7532808398950132,0,0,0.7532808398950132,False,True,False,entailment,entailment,sentence_merge_fallback,6,supportive
+HV-f3c5b5d397fc,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_9262,3,invalid-edit,0.5,False,,,,,True,False,False,,,double_newline,7,invalid-edit
+HV-de597bf83e2d,main,Mistral-Medium-3.5-128B,MATH-500,math_894,4,invalid-edit,0.6666666666666666,False,,,,,False,False,False,,,double_newline,7,invalid-edit
+HV-860cc6d082c5,main,Mistral-Medium-3.5-128B,MATH-500,math_5955,4,supportive,0.6666666666666666,True,0.7321428571428572,0,0,0.7321428571428572,False,True,False,12,12,double_newline,7,supportive
+HV-8d926c7f37c4,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recVvpD8miVjmmyfe,221,redundant,0.6260623229461756,True,0.6233120113717129,0,0,0.6233120113717129,True,False,False,A,A,double_newline,354,redundant
+HV-600f67b127c6,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_2870,2,decision-critical,0.2857142857142857,True,2.8825324180015257,1,1,0.8825324180015256,True,True,True,entailment,not-entailment,double_newline,8,decision-critical
+HV-94086bb08f53,main,GLM-5.1,LogiQA 2.0,logiqa_579,31,redundant,0.96875,True,0.27717391304347827,0,0,0.27717391304347827,True,False,False,not-entailment,not-entailment,double_newline,33,redundant
+HV-d0d41114b397,main,GLM-5.1,GPQA Diamond,gpqa_recVvpD8miVjmmyfe,229,decision-critical,0.4437984496124031,True,1.5354993983152827,1,0,0.5354993983152828,False,False,True,C,B,double_newline,517,decision-critical
+HV-fb88d730464f,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recoy9ZLBsc7HIRBy,2,invalid-edit,0.5,False,,,,,False,False,False,,,double_newline,5,invalid-edit
+HV-bb744b63c097,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_9727,0,supportive,0.0,True,0.7743589743589744,0,0,0.7743589743589744,False,True,False,3,3,double_newline,19,supportive
+HV-54688b098e8e,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recIIUynGGpsGEYuo,4,redundant,0.8,True,0.45871559633027525,0,0,0.45871559633027525,False,False,False,D,D,double_newline,6,redundant
+HV-07390c9a6879,main,GLM-5.1,GPQA Diamond,gpqa_recoiTJPGUmzAkief,20,redundant,0.6060606060606061,True,0.16916488222698067,0,0,0.16916488222698067,False,False,False,C,C,double_newline,34,redundant
+HV-ff0cbf6f9bdd,main,Mistral-Medium-3.5-128B,MATH-500,math_5702,2,redundant,0.5,True,0.07462686567164178,0,0,0.07462686567164178,False,False,False,111,111,double_newline,5,redundant
+HV-0439bae1fb1f,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_2870,3,decision-critical,0.42857142857142855,True,2.887072808320951,1,1,0.8870728083209509,False,True,True,not-entailment,entailment,double_newline,8,decision-critical
+HV-a6e9ac52381a,main,GLM-5.1,GPQA Diamond,gpqa_recLAgwx9vbgB5EHk,66,decision-critical,0.8048780487804879,True,2.9464524765729587,1,1,0.9464524765729585,False,True,True,A,B,double_newline,83,decision-critical
+HV-0f9cd43cfd6f,main,GLM-5.1,MATH-500,math_2338,7,invalid-edit,0.5833333333333334,False,,,,,False,False,False,,,double_newline,13,invalid-edit
+HV-ba8d4cff383c,main,GLM-5.1,GPQA Diamond,gpqa_recoy9ZLBsc7HIRBy,158,supportive,0.7860696517412935,True,0.8089591567852438,0,0,0.8089591567852438,False,True,False,D,D,double_newline,202,supportive
+HV-02f37f3c3b68,main,Mistral-Medium-3.5-128B,MATH-500,math_1789,0,supportive,0.0,True,0.7194492254733218,0,0,0.7194492254733218,True,True,False,220,220,double_newline,8,supportive
+HV-d10f6561ebff,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recRhwQwHijW0gCLo,142,supportive,0.6543778801843319,True,0.9419642857142857,0,0,0.9419642857142857,True,True,False,D,D,double_newline,218,supportive
+HV-158fc22cc76e,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_579,17,supportive,0.85,True,0.8934372969460689,0,0,0.8934372969460689,False,True,False,not-entailment,not-entailment,double_newline,21,supportive
+HV-5a4845ecbb36,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recoiTJPGUmzAkief,2,supportive,0.6666666666666666,True,0.9251336898395722,0,0,0.9251336898395722,False,True,False,C,C,double_newline,4,supportive
+HV-58be27b353e3,main,GLM-5.1,GPQA Diamond,gpqa_recLAgwx9vbgB5EHk,31,invalid-edit,0.3780487804878049,False,,,,,False,False,False,,,double_newline,83,invalid-edit
+HV-1f6fafef7dce,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_2646,0,decision-critical,0.0,True,2.539799331103679,1,1,0.539799331103679,False,False,True,not-entailment,entailment,double_newline,4,decision-critical
+HV-d46ee22fb4f3,main,GLM-5.1,MATH-500,math_1939,33,redundant,0.4782608695652174,True,0.5682281059063137,0,0,0.5682281059063137,True,False,False,6,6,double_newline,70,redundant
+HV-959751c84d37,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_reczQ4I0VpENdMtIj,2,supportive,0.25,True,1.0,0,0,1.0,False,True,False,D,,marker_fallback,9,supportive
+HV-eac110611284,main,GLM-5.1,MATH-500,math_6706,0,invalid-edit,0.0,False,,,,,False,False,False,,,double_newline,11,invalid-edit
+HV-447f4a905abe,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_2860,2,supportive,0.125,True,0.9786524349566378,0,0,0.9786524349566378,False,True,False,entailment,entailment,double_newline,17,supportive
+HV-4da9fea6c729,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_rec0VuKUjt1SZ7NYv,16,invalid-edit,0.7272727272727273,False,,,,,False,False,False,,,double_newline,23,invalid-edit
+HV-0f65b6229b5b,main,GLM-5.1,MATH-500,math_2832,4,supportive,0.6666666666666666,True,0.7967836257309941,0,0,0.7967836257309941,False,True,False,24,24,double_newline,7,supportive
+HV-cd24ddf52691,main,Mistral-Medium-3.5-128B,MATH-500,math_1506,3,invalid-edit,0.17647058823529413,False,,,,,True,False,False,,,double_newline,18,invalid-edit
+HV-acea07b169ba,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_1286,1,decision-critical,0.25,True,2.262368815592204,1,1,0.26236881559220393,False,False,True,not-entailment,entailment,double_newline,5,decision-critical
+HV-f644ae20af1e,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recooG6bivTUJpDBz,97,decision-critical,0.5843373493975904,True,1.9755555555555555,1,0,0.9755555555555555,True,True,True,C,B,double_newline,167,decision-critical
+HV-c82d03cb8082,main,GLM-5.1,LogiQA 2.0,logiqa_1954,17,invalid-edit,0.7083333333333334,False,,,,,True,False,False,,,double_newline,25,invalid-edit
+HV-e98e0e276fe3,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_1286,3,supportive,0.75,True,0.7115902964959568,0,0,0.7115902964959568,True,True,False,not-entailment,not-entailment,double_newline,5,supportive
+HV-64418f3a0eb0,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recoy9ZLBsc7HIRBy,107,decision-critical,0.6445783132530121,True,2.976851851851852,1,1,0.9768518518518519,False,True,True,D,C,double_newline,167,decision-critical
+HV-26b23e126932,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_5407,9,redundant,0.6428571428571429,True,0.637599093997735,0,0,0.637599093997735,True,False,False,10,10,double_newline,15,redundant
+HV-1fa7ec0a24b2,main,Mistral-Medium-3.5-128B,MATH-500,math_10497,2,invalid-edit,0.13333333333333333,False,,,,,True,False,False,,,double_newline,16,invalid-edit
+HV-9541f4d9f2d4,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_7348,7,decision-critical,0.4666666666666667,True,2.842894969108561,1,1,0.8428949691085613,False,True,True,\pi,π,double_newline,16,decision-critical
+HV-6bac28e99e80,main,GLM-5.1,LogiQA 2.0,logiqa_1989,14,redundant,0.6086956521739131,True,0.16352201257861632,0,0,0.16352201257861632,True,False,False,not-entailment,not-entailment,double_newline,24,redundant
+HV-53e9d6271ea3,main,Mistral-Medium-3.5-128B,MATH-500,math_7348,6,redundant,0.8571428571428571,True,0.0,0,0,0.0,True,False,False,\pi,\pi,sentence_merge_fallback,8,redundant
+HV-44029ed1eff2,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recLAgwx9vbgB5EHk,36,decision-critical,0.22641509433962265,True,1.5982800982800982,1,0,0.5982800982800982,False,False,True,C,A,double_newline,160,decision-critical
+HV-91c050453af4,main,GLM-5.1,LogiQA 2.0,logiqa_2156,36,redundant,0.6428571428571429,True,0.36005089058524176,0,0,0.36005089058524176,False,False,False,not-entailment,not-entailment,double_newline,57,redundant
+HV-7c474a12e10c,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_2886,0,invalid-edit,0.0,False,,,,,False,False,False,,,sentence_merge_fallback,1,invalid-edit
+HV-f1e5390a042d,main,Mistral-Medium-3.5-128B,MATH-500,math_716,6,supportive,0.6666666666666666,True,0.7244732576985413,0,0,0.7244732576985413,False,True,False,\dfrac{207}{64},\dfrac{207}{64},double_newline,10,supportive
+HV-e0592fb7a529,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recINSFEYLCyyd08m,107,decision-critical,0.44398340248962653,True,2.99250936329588,1,1,0.9925093632958801,True,True,True,B,A,double_newline,242,decision-critical
+HV-e9155ba25be1,main,Mistral-Medium-3.5-128B,MATH-500,math_5137,2,invalid-edit,0.5,False,,,,,True,False,False,,,double_newline,5,invalid-edit
+HV-1100150e4a75,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_716,2,decision-critical,0.16666666666666666,True,1.9754789272030653,1,0,0.9754789272030652,True,True,True,\boxed{207/64},207/64,double_newline,13,decision-critical
+HV-732d16f6a56c,main,Mistral-Medium-3.5-128B,MATH-500,math_10497,4,invalid-edit,0.26666666666666666,False,,,,,True,False,False,,,double_newline,16,invalid-edit
+HV-23f47f703c5f,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_1789,4,supportive,0.8,True,0.8026224982746721,0,0,0.8026224982746721,False,True,False,220,220,double_newline,6,supportive
+HV-4804d15e4464,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recn3NhOhqAPLda16,2,invalid-edit,0.10526315789473684,False,,,,,False,False,False,,,double_newline,20,invalid-edit
+HV-0579eb860844,main,Mistral-Medium-3.5-128B,MATH-500,math_9262,1,redundant,0.3333333333333333,True,0.15830875122910526,0,0,0.15830875122910526,True,False,False,10,10,double_newline,4,redundant
+HV-228db0611b19,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recXsuOHRBLcyenF2,1,redundant,0.14285714285714285,True,0.45760926803580837,0,0,0.45760926803580837,False,False,False,A,A,double_newline,8,redundant
+HV-caa24e807fb2,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_2860,1,redundant,0.0625,True,0.688622754491018,0,0,0.688622754491018,False,False,False,entailment,entailment,double_newline,17,redundant
+HV-72b36b347a3f,main,GLM-5.1,GPQA Diamond,gpqa_recSBcGLPatKb3Ygu,15,supportive,0.6,True,0.9043250327653998,0,0,0.9043250327653998,False,True,False,B,B,double_newline,26,supportive
+HV-e34c088793ff,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recoiTJPGUmzAkief,0,redundant,0.0,True,0.6678012253233492,0,0,0.6678012253233492,False,False,False,C,C,double_newline,4,redundant
+HV-d57090b55ac4,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recKv4hFyNpViUXnL,147,supportive,0.7696335078534031,True,0.7875688434303698,0,0,0.7875688434303698,False,True,False,C,C,double_newline,192,supportive
+HV-b76ce1cef220,main,GLM-5.1,LogiQA 2.0,logiqa_1194,8,invalid-edit,0.7272727272727273,False,,,,,False,False,False,,,double_newline,12,invalid-edit
+HV-4338a7448c8e,main,GLM-5.1,MATH-500,math_9262,0,invalid-edit,0.0,False,,,,,False,False,False,,,double_newline,4,invalid-edit
+HV-ba7ff13ad8b9,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recIlghoOw5VbY4Zh,5,decision-critical,0.8333333333333334,True,2.95987460815047,1,1,0.9598746081504702,False,True,True,A,B,double_newline,7,decision-critical
+HV-96876d8371fb,main,GLM-5.1,LogiQA 2.0,logiqa_1989,21,supportive,0.9130434782608695,True,0.8581469648562301,0,0,0.8581469648562301,True,True,False,not-entailment,not-entailment,double_newline,24,supportive
+HV-49f0e049d598,main,GLM-5.1,MATH-500,math_2958,23,redundant,0.5609756097560976,True,0.5675990675990676,0,0,0.5675990675990676,False,False,False,408,408,double_newline,42,redundant
+HV-098c8eaf55c5,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_rectXfsCM1dj4Kv2c,11,redundant,0.8461538461538461,True,0.6998706338939198,0,0,0.6998706338939198,False,False,False,C,C,double_newline,14,redundant
+HV-d70d37f42cb5,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_169,2,redundant,0.6666666666666666,True,0.6704545454545454,0,0,0.6704545454545454,False,False,False,not-entailment,not-entailment,marker_fallback,4,redundant
+HV-43c32dca5121,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_7348,2,redundant,0.13333333333333333,True,0.6804511278195489,0,0,0.6804511278195489,True,False,False,\pi,\pi,double_newline,16,redundant
+HV-36d9d0b7c1f2,main,GLM-5.1,LogiQA 2.0,logiqa_2886,16,invalid-edit,0.6956521739130435,False,,,,,True,False,False,,,double_newline,24,invalid-edit
+HV-41c754f9c58b,main,GLM-5.1,MATH-500,math_5702,2,invalid-edit,0.18181818181818182,False,,,,,True,False,False,,,double_newline,12,invalid-edit
+HV-54bb2b5c50f8,main,GLM-5.1,GPQA Diamond,gpqa_rectXfsCM1dj4Kv2c,42,supportive,0.4158415841584158,True,0.9425517702070808,0,0,0.9425517702070808,False,True,False,B,B,double_newline,102,supportive
+HV-4ee4e3122ce2,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recDytVnNYZe2HuUU,4,invalid-edit,0.26666666666666666,False,,,,,False,False,False,,,double_newline,16,invalid-edit
+HV-78c4c63021c1,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recn3NhOhqAPLda16,2,decision-critical,0.25,True,1.9079029247044181,1,0,0.9079029247044181,False,True,True,C,B,double_newline,9,decision-critical
+HV-dc0dc63c6e2f,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recWzUUYBN0NuXO2k,19,supportive,0.6551724137931034,True,0.7576642335766424,0,0,0.7576642335766424,False,True,False,B,B,double_newline,30,supportive
+HV-2cb1342d03bd,main,Mistral-Medium-3.5-128B,MATH-500,math_6864,17,invalid-edit,0.7083333333333334,False,,,,,True,False,False,,,double_newline,25,invalid-edit
+HV-9c3bd4086bab,main,GLM-5.1,LogiQA 2.0,logiqa_1286,14,supportive,0.6086956521739131,True,0.9690860215053764,0,0,0.9690860215053764,False,True,False,not-entailment,not-entailment,double_newline,24,supportive
+HV-2d1ccc3a9b7d,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_6153,2,invalid-edit,0.3333333333333333,False,,,,,True,False,False,,,double_newline,7,invalid-edit
+HV-8bf32c7c8ffe,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_1989,1,redundant,0.058823529411764705,True,0.6722408026755853,0,0,0.6722408026755853,False,False,False,not-entailment,not-entailment,double_newline,18,redundant
+HV-717bfd84f12e,main,GLM-5.1,GPQA Diamond,gpqa_recINSFEYLCyyd08m,47,decision-critical,0.17472118959107807,True,2.960380348652932,1,1,0.9603803486529319,False,True,True,B,D,double_newline,270,decision-critical
+HV-8be8bc8ff24d,main,GLM-5.1,MATH-500,math_6153,7,redundant,0.875,True,0.41806554756195047,0,0,0.41806554756195047,False,False,False,4/13,4/13,double_newline,9,redundant
+HV-4d407f5be6c6,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recLAgwx9vbgB5EHk,85,decision-critical,0.5345911949685535,True,2.6556016597510372,1,1,0.6556016597510373,False,False,True,C,B,double_newline,160,decision-critical
+HV-ca0ee39bbfb7,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_9461,3,supportive,1.0,True,0.9194741166803615,0,0,0.9194741166803615,False,True,False,4.5,4.5,sentence_merge_fallback,4,supportive
+HV-39541f1ba2cc,main,Mistral-Medium-3.5-128B,GPQA Diamond,gpqa_recypVp2NmPlBKVTp,3,invalid-edit,0.6,False,,,,,False,False,False,,,double_newline,6,invalid-edit
+HV-ff7e13db575c,main,GLM-5.1,MATH-500,math_10855,109,supportive,0.6987179487179487,True,0.9060283687943262,0,0,0.9060283687943262,True,True,False,108,108,double_newline,157,supportive
+HV-ac4483c5691b,main,GLM-5.1,GPQA Diamond,gpqa_recLAgwx9vbgB5EHk,61,decision-critical,0.7439024390243902,True,2.9608938547486034,1,1,0.9608938547486033,False,True,True,B,A,double_newline,83,decision-critical
+HV-dc3ec94a2b94,main,GLM-5.1,GPQA Diamond,gpqa_recINSFEYLCyyd08m,253,decision-critical,0.9405204460966543,True,2.0,1,1,0.0,False,False,True,A,B,double_newline,270,decision-critical
+HV-36b844e6a983,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_2832,1,redundant,1.0,True,0.6601503759398496,0,0,0.6601503759398496,True,False,False,24,24,sentence_merge_fallback,2,redundant
+HV-70a29e25ab46,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_716,10,invalid-edit,0.8333333333333334,False,,,,,True,False,False,,,double_newline,13,invalid-edit
+HV-276b74768282,main,GLM-5.1,GPQA Diamond,gpqa_recoy9ZLBsc7HIRBy,49,decision-critical,0.24378109452736318,True,2.7730690362269312,1,1,0.773069036226931,False,True,True,C,D,double_newline,202,decision-critical
+HV-599ec0ed2c68,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_267,11,redundant,0.9166666666666666,True,0.6294765840220385,0,0,0.6294765840220385,False,False,False,not-entailment,not-entailment,double_newline,13,redundant
+HV-85c91a872963,main,GLM-5.1,MATH-500,math_5407,25,supportive,0.8928571428571429,True,0.8775822494261668,0,0,0.8775822494261668,False,True,False,10,10,double_newline,29,supportive
+HV-2399551eedd4,main,Mistral-Medium-3.5-128B,MATH-500,math_10497,11,redundant,0.7333333333333333,True,0.060070671378091856,0,0,0.060070671378091856,False,False,False,30,30,double_newline,16,redundant
+HV-af982ffe8ca9,main,Mistral-Medium-3.5-128B,LogiQA 2.0,logiqa_2156,1,decision-critical,0.16666666666666666,True,2.828144458281445,1,1,0.8281444582814446,False,True,True,not-entailment,entailment,marker_fallback,7,decision-critical
+HV-a27dc4f3002b,main,Nemotron-3-Nano-Omni-30B-Reasoning,LogiQA 2.0,logiqa_1286,13,supportive,0.8666666666666667,True,0.904862579281184,0,0,0.904862579281184,True,True,False,not-entailment,not-entailment,double_newline,16,supportive
+HV-728f6ff9a711,main,Nemotron-3-Nano-Omni-30B-Reasoning,MATH-500,math_6706,9,invalid-edit,0.8181818181818182,False,,,,,True,False,False,,,double_newline,12,invalid-edit
+HV-b5597f554a8b,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_recKv4hFyNpViUXnL,46,decision-critical,0.24083769633507854,True,2.934156378600823,1,1,0.934156378600823,False,True,True,C,B,double_newline,192,decision-critical
+HV-091619ac665a,main,Nemotron-3-Nano-Omni-30B-Reasoning,GPQA Diamond,gpqa_reccVFW11Elovnf8T,62,decision-critical,0.36470588235294116,True,1.757201646090535,1,0,0.757201646090535,False,True,True,C,B,double_newline,171,decision-critical
+HV-75f17e6d1960,main,GLM-5.1,MATH-500,math_7348,3,supportive,0.42857142857142855,True,0.9366438356164384,0,0,0.9366438356164384,False,True,False,\pi,\pi,double_newline,8,supportive

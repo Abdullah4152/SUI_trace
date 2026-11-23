@@ -1,0 +1,27 @@
+# Environments
+.venv/
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# Generated experiment outputs — this repository ships no results.
+# Everything below is produced by running the pipeline and must not be committed.
+outputs/
+data/
+reports/
+paper_tables/
+human_validation/human_annotation_analysis_*/
+
+# Logs and OS cruft
+*.log
+.DS_Store
+Thumbs.db
+
+# Local working notes — must not ship with the anonymous artifact
+SUBMISSION_PLAN.md
